@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+}
+
+.berhasil {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: center;
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.berhasil h2 {
+    color: #28a745;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.berhasil p {
+    color: #333;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.sukses {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.sukses a {
+    text-decoration: none;
+}
+
+.sukses button {
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.1s;
+}
+
+.sukses button:hover {
+    background-color: #0056b3;
+}
+
+.sukses button:active {
+    background-color: #004494;
+    transform: scale(0.95);
+}

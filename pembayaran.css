@@ -1,0 +1,95 @@
+/* Tombol Kembali di Bawah */
+.back-button.bottom {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.back-button.bottom a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ccc;
+    color: #1e1e2f;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.back-button.bottom a:hover {
+    background-color: #fffafa;
+}
+
+/* Container Form */
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1e1e2f;
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    border-color: #1e1e2f;
+}
+
+/* Tombol Submit */
+input[type="submit"] {
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #1e1e2f;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffc300;
+    color: #1e1e2f;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px 15px;
+    }
+}
